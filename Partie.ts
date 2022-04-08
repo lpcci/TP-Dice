@@ -1,15 +1,15 @@
 export default class Partie {
-    nbTours: number;
+    nbTours: number = 5;
 
     initialiserPartie() {
-
+        console.log('Initialiser la partie');
     }
 
     lancerPartie() {
-        
+        console.log("Lancer la partie");
     }
 
-    afficherAfficherGagnant() {
-        
+    afficherGagnant() {
+        console.log("Afficher le gagnant")
     }
 }
